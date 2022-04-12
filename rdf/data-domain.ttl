@@ -1,0 +1,19 @@
+---
+permalink: /data-domain.ttl
+---
+@prefix cs: <https://linked.data.gov.au/def/supermodel/terms> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<https://linked.data.gov.au/def/supermodel/terms/data-domain>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Data Domain"@en ;
+    skos:definition """High-level conceptual areas within which a supermodel has data."""@en ;
+    skos:scopeNote """Data Domains are not themed at a level above science domains or domains within other, particular, diciplines but are instead based on parts of measurement models, such as the Observations & Measurement ISO19156 standard. This is to ensure that the domains are relevant to many forms of data, given that data is often measured and observed."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+    dcterms:provenance "Defined within the Supermodel model" ;
+.

@@ -1,0 +1,18 @@
+---
+permalink: /knowledge-graph.ttl
+---
+@prefix cs: <https://linked.data.gov.au/def/supermodel/terms> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<https://linked.data.gov.au/def/supermodel/terms/knowledge-graph>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Knowledge Graph"@en ;
+    skos:definition """A Knowledge Graph is a dataset that uses a graph data tructure - nodes and edges - with strongly-defined elements."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+    dcterms:provenance "Defined within the Supermodel model" ;
+.

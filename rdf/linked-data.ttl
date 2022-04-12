@@ -1,0 +1,23 @@
+---
+permalink: /linked-data.ttl
+---
+@prefix cs: <https://linked.data.gov.au/def/supermodel/terms> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+
+<https://linked.data.gov.au/def/supermodel/terms/linked-data>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Linked Data"@en ;
+    skos:definition """A set of technologies and conventions defined by the World Wide Web Consortium that aim to present data in both human- and machine-readable form over the Internet.
+
+Linked Data is strongly-defined with each element having either a local definition or a link to an available definition on the Internet.
+
+Linked Data is graph-based in nature, that is it consistes of nodes and edges that can forever be linked to further conceps with defined relationships."""@en ;
+    dcterms:source "https://www.w3.org/standards/semanticweb/data"^^xsd:anyURI ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+.

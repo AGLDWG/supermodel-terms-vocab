@@ -1,0 +1,120 @@
+---
+permalink: /.ttl
+---
+@prefix cs: <https://linked.data.gov.au/def/supermodel/terms> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix : <https://linked.data.gov.au/def/supermodel/terms/> .
+
+
+<https://linked.data.gov.au/def/supermodel/terms> 
+    a owl:Ontology , skos:ConceptScheme ;
+    dcterms:identifier "supermodel-terms"^^xsd:token ;
+    skos:prefLabel "Supermodel Terms Vocabulary"@en ;
+    skos:definition """This repository contains a Semantic Web vocabulary that defines terms of the Supermodel data model. The vocabulary is available online in human- and machine-readable form at: https://linked.data.gov.au/def/supermodel/terms."""@en ;
+    owl:versionIRI <https://linked.data.gov.au/def/supermodel/terms/1.0> ;
+    owl:versionInfo "1.0"@en ;
+    dcterms:contributor <https://orcid.org/0000-0002-8742-7730>;
+    dcterms:creator <http://orcid.org/0000-0002-8742-7730> ;
+    dcterms:publisher <https://linked.data.gov.au/org/agldwg> ;
+    rdfs:seeAlso <https://github.com/agldwg/supermodel-terms-vocab> ;
+    dcterms:issued "2022-04-12"^^xsd:date ;
+    dcterms:modified "2022-04-12"^^xsd:date ;
+    dcterms:rights "(c) Commonwealth of Australia (Australian Government Linked Data Working Group), 2022"@en ;
+    dcterms:created "2022-04-12"^^xsd:date ;
+    dcterms:source "https://linked.data.gov.au/def/supermodel"^^xsd:anyURI ;
+    skos:hasTopConcept 
+        <https://linked.data.gov.au/def/supermodel/terms/central-class> ,
+        <https://linked.data.gov.au/def/supermodel/terms/data-domain> ,
+        <https://linked.data.gov.au/def/supermodel/terms/knowledge-graph> ,
+        <https://linked.data.gov.au/def/supermodel/terms/linked-data> ,
+        <https://linked.data.gov.au/def/supermodel/terms/semantic-web> ;
+.
+
+<https://linked.data.gov.au/def/agldwg>
+    a sdo:Organization ;
+    sdo:name "Australian government Linked Data Working Group" ;
+    sdo:url "https://linked.data.gov.au"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-8742-7730>
+    a sdo:Person ;
+    sdo:honorificPrefix "Dr" ;
+    sdo:name "Nicholas J. Car" ;
+    sdo:email "nicholas.car@surroundaustralia.com"^^xsd:anyURI ;
+    sdo:affiliation <https://linked.data.gov.au/org/surround> ;
+.
+
+<https://linked.data.gov.au/def/supermodel/terms/central-class>
+    a skos:Concept ;
+    dcterms:identifier "central-class"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Central Class"@en ;
+    skos:definition """Central Classes are the generic data classes at the centre of Data Domains with high-level relationships between them defined in this supermodel.
+
+These classes are taken from general standards - usually well-known international stadnards - and Geoscience Australia specialises and extends them to make specific, custom, classes for their needs."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+    dcterms:provenance "Defined within the Supermodel model" ;
+.
+
+<https://linked.data.gov.au/def/supermodel/terms/data-domain>
+    a skos:Concept ;
+    dcterms:identifier "data-domain"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Data Domain"@en ;
+    skos:definition """High-level conceptual areas within which a supermodel has data."""@en ;
+    skos:scopeNote """Data Domains are not themed at a level above science domains or domains within other, particular, diciplines but are instead based on parts of measurement models, such as the Observations & Measurement ISO19156 standard. This is to ensure that the domains are relevant to many forms of data, given that data is often measured and observed."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+    dcterms:provenance "Defined within the Supermodel model" ;
+.
+
+<https://linked.data.gov.au/def/supermodel/terms/knowledge-graph>
+    a skos:Concept ;
+    dcterms:identifier "knowledge-graph"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Knowledge Graph"@en ;
+    skos:definition """A Knowledge Graph is a dataset that uses a graph data tructure - nodes and edges - with strongly-defined elements."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+    dcterms:provenance "Defined within the Supermodel model" ;
+.
+
+<https://linked.data.gov.au/def/supermodel/terms/linked-data>
+    a skos:Concept ;
+    dcterms:identifier "linked-data"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Linked Data"@en ;
+    skos:definition """A set of technologies and conventions defined by the World Wide Web Consortium that aim to present data in both human- and machine-readable form over the Internet.
+
+Linked Data is strongly-defined with each element having either a local definition or a link to an available definition on the Internet.
+
+Linked Data is graph-based in nature, that is it consistes of nodes and edges that can forever be linked to further conceps with defined relationships."""@en ;
+    dcterms:source "https://www.w3.org/standards/semanticweb/data"^^xsd:anyURI ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+    dcterms:provenance "Defined within the Supermodel model" ;
+.
+
+<https://linked.data.gov.au/def/supermodel/terms/semantic-web>
+    a skos:Concept ;
+    dcterms:identifier "semantic-web"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Semantic Web"@en ;
+    skos:definition """The World Wide Web Consortium's vision of an Internet-based web of Linked Data.
+
+Semantic Web is used to refer to something more than just the technologies and conventions of Linked Data; the term also encompases a specific set of interoperable data models - often called ontologies - published by the W3C, other standards bodies and some well-known companies.
+
+The 'semantic' refers to the strongly-defined nature of the elements in the Semantic Web: the meaning of Semantic Web data is as precicely defined as any data can be."""@en ;
+    dcterms:source "https://www.w3.org/standards/semanticweb/"^^xsd:anyURI ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+    dcterms:provenance "Defined within the Supermodel model" ;
+.

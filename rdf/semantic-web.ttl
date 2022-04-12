@@ -1,0 +1,23 @@
+---
+permalink: /semantic-web.ttl
+---
+@prefix cs: <https://linked.data.gov.au/def/supermodel/terms> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+
+<https://linked.data.gov.au/def/supermodel/terms/semantic-web>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Semantic Web"@en ;
+    skos:definition """The World Wide Web Consortium's vision of an Internet-based web of Linked Data.
+
+Semantic Web is used to refer to something more than just the technologies and conventions of Linked Data; the term also encompases a specific set of interoperable data models - often called ontologies - published by the W3C, other standards bodies and some well-known companies.
+
+The 'semantic' refers to the strongly-defined nature of the elements in the Semantic Web: the meaning of Semantic Web data is as precicely defined as any data can be."""@en ;
+    dcterms:source "https://www.w3.org/standards/semanticweb/"^^xsd:anyURI ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+.

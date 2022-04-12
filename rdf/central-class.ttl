@@ -1,0 +1,20 @@
+---
+permalink: /central-class.ttl
+---
+@prefix cs: <https://linked.data.gov.au/def/supermodel/terms> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<https://linked.data.gov.au/def/supermodel/terms/central-class>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Central Class"@en ;
+    skos:definition """Central Classes are the generic data classes at the centre of Data Domains with high-level relationships between them defined in this supermodel.
+
+These classes are taken from general standards - usually well-known international stadnards - and Geoscience Australia specialises and extends them to make specific, custom, classes for their needs."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+    dcterms:provenance "Defined within the Supermodel model" ;
+.
