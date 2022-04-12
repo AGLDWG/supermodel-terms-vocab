@@ -2,7 +2,7 @@ title: Supermodel Terms Vocabulary
 email: nick@kurrawong.net
 description: >- # this means to ignore newlines until "baseurl:"
   A vocabular containing the terms defined in the Supermodel model
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/supermodel-terms-vocab" # the subpath of your site, e.g. /blog
 url: "http://linked.data.gov.au/def/supermodel/terms" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
