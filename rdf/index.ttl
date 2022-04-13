@@ -58,7 +58,7 @@ permalink: /.ttl
     skos:prefLabel "Central Class"@en ;
     skos:definition """Central Classes are the generic data classes at the centre of Data Domains with high-level relationships between them defined in this supermodel.
 
-These classes are taken from general standards - usually well-known international stadnards - and Geoscience Australia specialises and extends them to make specific, custom, classes for their needs."""@en ;
+These classes are taken from general standards - usually well-known international standards - and they are specialised and extended within Supermodel implementations as needed."""@en ;
     skos:inScheme cs: ;
     skos:topConceptOf cs: ;
     dcterms:provenance "Defined within the Supermodel model" ;

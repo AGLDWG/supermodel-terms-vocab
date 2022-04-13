@@ -11,7 +11,7 @@ permalink: /central-class
 
 Central Classes are the generic data classes at the centre of Data Domains with high-level relationships between them defined in this supermodel.
 
-These classes are taken from general standards - usually well-known international stadnards - and Geoscience Australia specialises and extends them to make specific, custom, classes for their needs.
+These classes are taken from general standards - usually well-known international standards - and they are specialised and extended within Supermodel implementations as needed
 
 &nbsp; | &nbsp; 
 --- | ---
