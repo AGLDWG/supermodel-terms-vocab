@@ -24,7 +24,7 @@ permalink: /.ttl
     dcterms:creator <http://orcid.org/0000-0002-8742-7730> ;
     dcterms:publisher <https://linked.data.gov.au/org/agldwg> ;
     rdfs:seeAlso <https://github.com/agldwg/supermodel-terms-vocab> ;
-    dcterms:issued "2022-04-12"^^xsd:date ;
+    dcterms:issued "2022-04-14"^^xsd:date ;
     dcterms:modified "2022-04-12"^^xsd:date ;
     dcterms:rights "(c) Commonwealth of Australia (Australian Government Linked Data Working Group), 2022"@en ;
     dcterms:created "2022-04-12"^^xsd:date ;

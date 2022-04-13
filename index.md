@@ -15,7 +15,7 @@ Element | Value
 [Publisher](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/publisher) | [Australian Government Linked Data Working Group](https://linked.data.gov.au/org/agldwg)
 [Created](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/created) | 12th April 2022
 [Modified](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/modified) | 12th April 2022
-[Issued](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/issued) | 12th April 2022
+[Issued](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/issued) | 14th April 2022
 [Description](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/description) | This vocabulary defines terms used by the [Supermodel data model](https://linked.data.gov.au/def/supermodel)
 Repository | <https://github.com/agldwg/supermodel-terms-vocab>
 
