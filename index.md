@@ -29,4 +29,6 @@ This repository contains a Semantic Web vocabulary that defines terms of the Sup
 * [Data Domain]({{ site.baseurl }}/data-domain)
 * [Knowledge Graph]({{ site.baseurl }}/knowledge-graph)
 * [Linked Data]({{ site.baseurl }}/linked-data)
+* [Location Index]({{ site.baseurl }}/location-index)
+* [Ontology]({{ site.baseurl }}/ontology)
 * [Semantic Web]({{ site.baseurl }}/semantic-web)

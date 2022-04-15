@@ -103,6 +103,28 @@ Linked Data is graph-based in nature, that is it consistes of nodes and edges th
     dcterms:provenance "Defined within the Supermodel model" ;
 .
 
+<https://linked.data.gov.au/def/supermodel/terms/location-index>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Location Index"@en ;
+    skos:definition """A project undertaken by CSIRO, Geoscience Australia and other Australin government organisations from 2018 onwards aiming to provide a consistent way to seamlessly integrate spatial data from distributed sources."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+    dcterms:source "http://www.ga.gov.au/locationindex"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/def/supermodel/terms/ontology>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Ontology"@en ;
+    skos:definition """In computer science and information science, an ontology encompasses a representation, formal naming, and definition of the categories, properties, and relations between the concepts, data, and entities that substantiate one, many, or all domains of discourse.
+
+The word ontology was originally defined as "the branch of philosophy that studies concepts such as existence, being, becoming, and reality". and the computer science term is derived from that definition."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+    dcterms:provenance "This definition was created for this vocabulary based on several sources, in particular Semantic Web web pages from the W3C (see 'Semantic Web') and Wikipedia's Ontology (Computer Science) page" ;
+.
+
 <https://linked.data.gov.au/def/supermodel/terms/semantic-web>
     a skos:Concept ;
     dcterms:identifier "semantic-web"^^xsd:token ;

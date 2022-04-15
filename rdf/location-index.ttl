@@ -1,0 +1,19 @@
+---
+permalink: /location-index.ttl
+---
+@prefix cs: <https://linked.data.gov.au/def/supermodel/terms> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+
+<https://linked.data.gov.au/def/supermodel/terms/location-index>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Location Index"@en ;
+    skos:definition """A project undertaken by CSIRO, Geoscience Australia and other Australin government organisations from 2018 onwards aiming to provide a consistent way to seamlessly integrate spatial data from distributed sources."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+    dcterms:source "http://www.ga.gov.au/locationindex"^^xsd:anyURI ;
+.
