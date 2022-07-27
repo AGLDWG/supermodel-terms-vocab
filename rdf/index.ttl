@@ -30,11 +30,32 @@ permalink: /.ttl
     dcterms:created "2022-04-12"^^xsd:date ;
     dcterms:source "https://linked.data.gov.au/def/supermodel"^^xsd:anyURI ;
     skos:hasTopConcept 
+        <https://linked.data.gov.au/def/supermodel/terms/backbone-model> ,
+        <https://linked.data.gov.au/def/supermodel/terms/background-model> ,
         <https://linked.data.gov.au/def/supermodel/terms/central-class> ,
         <https://linked.data.gov.au/def/supermodel/terms/data-domain> ,
         <https://linked.data.gov.au/def/supermodel/terms/knowledge-graph> ,
         <https://linked.data.gov.au/def/supermodel/terms/linked-data> ,
-        <https://linked.data.gov.au/def/supermodel/terms/semantic-web> ;
+        <https://linked.data.gov.au/def/supermodel/terms/semantic-web> ,
+        <https://linked.data.gov.au/def/supermodel/terms/vocabulary> ;
+.
+
+<https://linked.data.gov.au/def/supermodel/terms/backbone-model>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Backbone Model"@en ;
+    skos:definition """An integrative, summary model, that allows for crosswalking of elements within the Component Models of a Supermodel."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/supermodel/terms/background-model>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Background Model"@en ;
+    skos:definition """A standard and common Semantic Web model used as "upper" or higher order/abstract model for all other Supermodel models to conform to when modelling something within the Background Model's purview."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
 .
 
 <https://linked.data.gov.au/def/agldwg>
@@ -139,4 +160,14 @@ The 'semantic' refers to the strongly-defined nature of the elements in the Sema
     skos:inScheme cs: ;
     skos:topConceptOf cs: ;
     dcterms:provenance "Defined within the Supermodel model" ;
+.
+
+<https://linked.data.gov.au/def/supermodel/terms/vocabulary>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Vocabulary"@en ;
+    skos:definition """A managed codelist or taxonomy of concepts."""@en ;
+    skos:scopeNote "Supermodels tend to use vocabularies formulated according to the SKOS (https://www.w3.org/TR/skos-reference/) or lists of objects defined using basic RDF (http://www.w3.org/TR/rdf11-concepts/), RDFS (https://www.w3.org/TR/rdf-schema/) or OWL (https://www.w3.org/TR/owl2-overview/) elements."@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
 .

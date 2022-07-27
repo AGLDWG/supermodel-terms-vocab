@@ -1,0 +1,18 @@
+---
+permalink: /backbone-model.ttl
+---
+@prefix cs: <https://linked.data.gov.au/def/supermodel/terms> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+
+<https://linked.data.gov.au/def/supermodel/terms/backbone-model>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Backbone Model"@en ;
+    skos:definition """An integrative, summary model, that allows for crosswalking of elements within the Component Models of a Supermodel."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+.

@@ -1,0 +1,18 @@
+---
+permalink: /background-model.ttl
+---
+@prefix cs: <https://linked.data.gov.au/def/supermodel/terms> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+
+<https://linked.data.gov.au/def/supermodel/terms/background-model>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:prefLabel "Background Model"@en ;
+    skos:definition """A standard and common Semantic Web model used as "upper" or higher order/abstract model for all other Supermodel models to conform to when modelling something within the Background Model's purview."""@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+.
